@@ -4,7 +4,7 @@ import {Name_Status} from '../constant/carlisting'
     Name_Status: Name_Status.carListing.NEW,
   };
 
-  export default function (state = carListing_initialState, action) {
+  export const ReducerName = (state = carListing_initialState, action)=> {
    console.log(action.type);
     switch(action.type) {
 
