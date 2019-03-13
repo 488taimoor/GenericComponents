@@ -26,7 +26,10 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 class Login_View extends Component {
-
+constructor(props){
+        super(props)
+        this.state = {}
+      }
   getScreen(status) {
       switch (status) {
         
