@@ -1,0 +1,22 @@
+export const UserProfile_Actions= {
+	UserProfile :{
+        NEW:"UserProfile_NEW",
+        POST:"UserProfile_POST",
+		SUCCESS: "UserProfile_SUCCESS",
+        FAILURE: "UserProfile_FAILURE",
+        NETWORK_FAILURE:'UserProfile_NETWORK_FAILURE'
+	}
+}
+
+
+export const UserProfile_Status ={
+	UserProfile :{
+        NEW:"UserProfile_NEW",
+        LOADING:"UserProfile_LOADING",
+		SUCCESS: "UserProfile_SUCCESS",
+        FAILURE: "UserProfile_FAILURE",
+        NETWORK_FAILURE:'UserProfile_NETWORK_FAILURE'
+	}
+
+
+}
